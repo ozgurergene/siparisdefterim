@@ -1,12 +1,14 @@
 ﻿export const metadata = {
-  title: "SiparişDefterim",
-  description: "Instagram siparişlerini yönet",
+  title: "SiparişDefterim - Instagram Sipariş Yönetimi",
+  description: "Instagram DM'den siparış yönetin",
 }
 
 export default function RootLayout({ children }) {
   return (
     <html lang="tr">
-      <body>{children}</body>
+      <body style={{ margin: 0, padding: 0 }}>
+        {children}
+      </body>
     </html>
   )
 }
